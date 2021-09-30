@@ -4,15 +4,31 @@
     box-sizing: border-box;
 }
 #header {
-    margin-left: 10%;
+    padding: 30px 50px;
+    background-image: url(https://image.freepik.com/free-vector/cute-rabbit-flower-seamless-background-repeating-pattern-wallpaper-background-cute-seamless-pattern-background_42349-857.jpg);
+    position: relative;
 }
 #header .avatar {
-    max-width: 200px;
+    max-width: 300px;
     border-radius: 50%;
 }
 #header .name {
-    font-size: 30px;
+    font-size: 50px;
 }
+
 #tt li a{
     text-decoration: none;
+    font-size: 20px;
+}
+#introduce {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: 450px;
+    font-size: 22px;
+    background-color: rgb(255 255 255 / 30%);;
+}
+#introduce .secon{
+    list-style-type: none;
+    padding: 20px;
 }
